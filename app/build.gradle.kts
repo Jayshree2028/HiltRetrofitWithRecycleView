@@ -62,4 +62,11 @@ dependencies {
     var lifecycle_version = "2.8.7"
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+
+    //coroutines
+    val coroutinesVersion = "1.7.3"
+    api ("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
+    api ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion")
+
+
 }
